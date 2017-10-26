@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/first_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_fuli"
+            android:checked="true"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="首页" />
+
+        <item
+            android:id="@+id/nav_history"
+            android:checked="true"
+            android:icon="@mipmap/icon_time"
+            android:title="闲读" />
+
+        <!--
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@mipmap/icon_category"
+            android:title="分类浏览" />
+        -->
+        <item
+            android:id="@+id/nav_collect"
+            android:icon="@mipmap/icon_collect_no"
+            android:title="收藏" />
+
+        <!--
+        <item
+            android:id="@+id/nav_codes"
+            android:icon="@mipmap/icon_jcode"
+            android:title="泡在网上的日子" />
+
+
+        <item
+            android:id="@+id/nav_cocoa_china"
+            android:icon="@mipmap/icon_ios"
+            android:title="CocoaChina" />
+        -->
+    </group>
+    <group android:id="@+id/second_group">
+        <item
+            android:id="@+id/setting"
+            android:icon="@mipmap/icon_setup"
+            android:title="设置" />
+        <item
+            android:id="@+id/share_app"
+            android:icon="@mipmap/icon_share"
+            android:title="分享" />
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/ic_menu_send"
+            android:title="反馈" />
+        <item
+            android:id="@+id/about"
+            android:icon="@mipmap/icon_about"
+            android:title="关于" />
+    </group>
+</menu>

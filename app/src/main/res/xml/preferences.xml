@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout="@layout/preference_item"
+    android:title="Setting">
+
+    <PreferenceCategory
+        android:layout="@layout/preference_category_widget"
+        android:title="基本设置">
+
+        <CheckBoxPreference
+            android:key="save_data"
+            android:layout="@layout/preference_item"
+            android:summary="仅在WiFi环境下才自动加载图片"
+            android:title="省流量模式"
+            android:widgetLayout="@layout/switch_layout" />
+
+        <CheckBoxPreference
+            android:key="rec_push"
+            android:layout="@layout/preference_item"
+            android:summary="向客户端推送热点信息"
+            android:title="接受推动通知"
+            android:widgetLayout="@layout/switch_layout" />
+
+        <Preference
+            android:key="rm_cache"
+            android:layout="@layout/preference_item"
+            android:summary="删除已缓存的文章内容及图片"
+            android:title="清空缓存" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:layout="@layout/preference_category_widget"
+        android:title="其他设置">
+
+        <Preference
+            android:key="feedback"
+            android:layout="@layout/preference_item"
+            android:summary="将您的意见反馈给我们"
+            android:title="意见反馈" />
+
+        <Preference
+            android:key="check_update"
+            android:layout="@layout/preference_item"
+            android:summary="检查是否有新版本"
+            android:title="版本更新" />
+
+        <Preference
+            android:key="current_version"
+            android:layout="@layout/preference_item"
+            android:summary="1.0.1"
+            android:title="当前版本" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

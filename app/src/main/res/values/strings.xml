@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Scene</string>
+    <string name="version">Version: %s</string>
+    <string name="introduce_and_help">项目介绍</string>
+    <string name="introduce">「生活小蜜」一款能够智能改变手机设置的APP，APP可以根据时间、连接WiFi的名字
+        的概念智能更改手机设置。用户登录之后可以与云端自动同步，自动恢复之前的设置项，而且还可以通过扫描二维码的方式
+        与朋友之间共享设置。应用采取了Materia Design的设计风格，应用不定时更新热门新闻，可供用户闲暇之余阅读浏览。
+        \n\n本项目完全开源，由windylee完成，是毕业设计和学习RxJava，Retrofit等优秀开源框架以及MVP设计模式的产物，
+        项目借鉴了drakeet的开源项目Meizi以及maoruibin的开源项目GankDaily，收获很多，感谢开源社区。
+        由于水平有限，项目中难免有所纰漏，如果有问题请与我联系 liwangadd@gmail.com
+    </string>
+    <string name="developers">开发者</string>
+    <string name="my_github">https://github.com/liwangadd</string>
+    <string name="thanks">特别感谢</string>
+    <string name="thank_content"><b>daimajia</b>\n干货集中营 : http://gank.io\n\n<b>drakeet</b>\n妹纸&#038;gank·io : https://github.com/drakeet/Meizhi\n\n<b>maoruibin</b>\nGankDaily : https://github.com/maoruibin/GankDaily</string>
+    <string name="open_source">用到的开源库</string>
+    <string name="open_source_libraries_list">com.jakewharton:butterknife:7.0.1\nio.reactivex:rxandroid:1.1.0\nio.reactivex:rxjava:1.1.0\ncom.squareup.retrofit:retrofit:2.0.0-beta2\ncom.squareup.retrofit:converter-gson:2.0.0-beta2\ncom.squareup.retrofit:adapter-rxjava:2.0.0-beta2\ncom.github.bumptech.glide:glide:3.6.1\ncom.daimajia.numberprogressbar:library:1.2@aar\ncom.github.mthli:Slice:v1.0\ncom.github.castorflex.smoothprogressbar:library:1.1.0\ncom.commit451:PhotoView:1.2.4</string>
+    <string name="market">market://details?id=%s</string>
+</resources>
